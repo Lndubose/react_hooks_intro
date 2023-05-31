@@ -21,8 +21,8 @@ function App() {
       <img
         src={
           isOn
-            ? "https://img.icons8.com/light"
-            : "https://img.icons8.com/EEFF05/light"
+            ? "https://img.icons8.com/flash-light"
+            : "https://img.icons8.com/FFF176/flash-light"
         }
         style={{
           height: "50px",
