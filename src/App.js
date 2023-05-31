@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +11,10 @@ function App() {
   const toggleLight = () => {
     setIsOn((prevIsOn) => !prevIsOn);
   };
+
+  useEffect(() => {
+    document.title = `You have clicked ${count} times`;
+  });
 
   return (
     <div className="App">
