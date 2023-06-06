@@ -46,6 +46,7 @@ function App() {
   };
 
   useEffect(() => {
+    mounted = true;
     document.title = `You have clicked ${count} times`;
 
     window.addEventListener("mousemove", handleMouseMove);
